@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+    <div class="background-image">
+        <img src="images/tip.jpeg">
+    </div>
+    <div class="container">
+        <div class="row bill-button">
+            <h1>Let's calculate your tip</h1>
+            <button class="btn btn-primary" id="button-top" onclick="calculateTip()">Calculate Tip</button>
+            <h3 id="message" class="text-center"></h3>
+            <p class="tip-description text-center">
+                If the bill is more then $100, then the tip will be 10%, if the bill is more than $300, then the tip will be 5%, if the bill is more than $500, then the tip will be 3%</p>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
